@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace JonasJohn.Tools.Files2Text
 {
-	
+	// Helper classes
 	
 	public class FileList
 	{

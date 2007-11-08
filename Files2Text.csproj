@@ -29,9 +29,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SimpleControlCollection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="AdvancedControls, Version=1.0.2865.41036, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ClassLib\Controls\SimpleControls\SimpleControlCollection\bin\Release\SimpleControlCollection.dll</HintPath>
+      <HintPath>DLLs\AdvancedControls.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

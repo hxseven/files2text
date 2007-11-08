@@ -24,8 +24,8 @@ namespace JonasJohn.Tools.Files2Text
 
 		private void frmPreview_Load(object sender, EventArgs e)
 		{
-			this.listView1.Columns.Add("Old name", this.listView1.Width / 2);
-			this.listView1.Columns.Add("New name", this.listView1.Width / 2);
+			this.lvChangedFileNames.Columns.Add("Old name", this.lvChangedFileNames.Width / 2);
+			this.lvChangedFileNames.Columns.Add("New name", this.lvChangedFileNames.Width / 2);
 
 			foreach (FileItem File in this.fileList.GetFiles()) {
 
@@ -36,7 +36,7 @@ namespace JonasJohn.Tools.Files2Text
 				if (File.Modified)
 					NewItem.ForeColor = Color.Red;
 
-				this.listView1.Items.Add(NewItem);			
+				this.lvChangedFileNames.Items.Add(NewItem);			
 			}
 
 		}
