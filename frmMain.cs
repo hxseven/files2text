@@ -275,7 +275,7 @@ namespace JonasJohn.Tools.Files2Text
 
 			try
 			{
-				string TempPath = this.FileList.GetTempFilePath(@"C:\");	
+				string TempPath = this.FileList.GetTempFilePath();	
 
 				FileList.FillTempFile();
 
