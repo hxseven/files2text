@@ -135,12 +135,9 @@ namespace JonasJohn.Tools.Files2Text
 		/// <summary>
 		/// Writes the temp file.
 		/// </summary>
-		internal string GetTempFilePath(string ParentFolder)
+		internal string GetTempFilePath()
 		{
-			tempFilePath = ParentFolder;
-			tempFilePath += new Random().Next(1111, 9999).ToString();
-			tempFilePath += Guid.NewGuid().ToString().Substring(1, 4);
-			tempFilePath += ".txt";
+			tempFilePath = Path.GetTempFileName();
 
 			return tempFilePath;
 		}
